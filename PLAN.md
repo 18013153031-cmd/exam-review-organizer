@@ -14,13 +14,13 @@
 
 ## Day 1: Environment & Scaffolding
 
-- [ ] Install Claude Code, complete login/authorization
-- [ ] Create GitHub repository, clone locally
-- [ ] Add CLAUDE.md, PROJECT.md, and PLAN.md to the project root
-- [ ] Generate Spring Boot project skeleton via Spring Initializr (dependencies: Web, JPA, PostgreSQL Driver)
-- [ ] Install/configure PostgreSQL locally, verify app startup + DB connection
-- [ ] Create React project skeleton (Vite + JavaScript)
-- [ ] First commit + push (`feat: project scaffolding`)
+- [x] Install Claude Code, complete login/authorization
+- [x] Create GitHub repository, clone locally
+- [x] Add CLAUDE.md, PROJECT.md, and PLAN.md to the project root
+- [x] Generate Spring Boot project skeleton via Spring Initializr (dependencies: Web, JPA, PostgreSQL Driver)
+- [x] Install/configure PostgreSQL locally, verify app startup + DB connection
+- [x] Create React project skeleton (Vite + JavaScript)
+- [x] First commit (`feat: project scaffolding`) — push still pending
 
 ---
 
@@ -120,7 +120,7 @@
 
 | Day | Planned | Actual Progress | Issues / Notes |
 |-----|---------|------------------|-----------------|
-| 1   |         |                  |                 |
+| 1   | Env & scaffolding | Spring Boot (Java 21, Web/JPA/PostgreSQL) and React+Vite skeletons created; local PostgreSQL 15 confirmed running, `exam_review_organizer` DB created; backend verified to connect via Hikari; committed as `3b27fb7` | PostgreSQL 15 was already installed but not on PATH and had no project DB yet; local trust-auth on 127.0.0.1 means no password needed for dev |
 | 2-3 |         |                  |                 |
 | 4-6 |         |                  |                 |
 | 7-8 |         |                  |                 |
