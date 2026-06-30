@@ -20,7 +20,7 @@
 - [x] Generate Spring Boot project skeleton via Spring Initializr (dependencies: Web, JPA, PostgreSQL Driver)
 - [x] Install/configure PostgreSQL locally, verify app startup + DB connection
 - [x] Create React project skeleton (Vite + JavaScript)
-- [x] First commit (`feat: project scaffolding`) — push still pending
+- [x] First commit + push (`feat: project scaffolding`)
 
 ---
 
